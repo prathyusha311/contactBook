@@ -1,5 +1,9 @@
 # contactBook
-assigment 
+
+Developed CRUD APIs for a typical contact book app
+Supported adding/editing/deleting contacts
+Search a contact by name/email address. Search supports pagination
+Implemented basic authentication for all the api's
 
 
 
@@ -41,10 +45,10 @@ curl -X POST \
 
 Response:
 
-			{
-				"status": 200,
-				"message": "SUCCESS"
-			}
+{
+	"status": 200,
+	"message": "SUCCESS"
+}
 		
 ---------
 
@@ -61,10 +65,10 @@ curl -X DELETE \
 
 Response:
 
-			{
-				"status": 200,
-				"message": "SUCCESS"
-			}	
+{
+	"status": 200,
+	"message": "SUCCESS"
+}	
 		
 		
 ---------
@@ -72,11 +76,11 @@ Response:
 
 PUT Request: http://localhost:9091/edit
 
-			{
-				"mobileNumber" : "7762924463",
-				"emailId" : "ram@gmail.com",
-				"name" : "ram123"
-			}
+{
+	"mobileNumber" : "7762924463",
+	"emailId" : "ram@gmail.com",
+	"name" : "ram123"
+}
 			
 			
 or
@@ -98,10 +102,10 @@ curl -X PUT \
 			
 Response:
 
-			{
-				"status": 200,
-				"message": "SUCCESS"
-			}
+{
+	"status": 200,
+	"message": "SUCCESS"
+}
 		
 
 ---------
@@ -119,11 +123,11 @@ curl -X GET \
   -H 'postman-token: 8993e7a1-6ded-0c80-9384-ffe5becd6bbe'
 
 Response:
-			{
-				"mobileNumber": "7544",
-				"emailId": "likidig",
-				"name": "liki"
-			}
+{
+	"mobileNumber": "7544",
+	"emailId": "likidig",
+	"name": "liki"
+}
 
 			
 ---------
