@@ -1,8 +1,8 @@
 # contactBook
 
-Developed CRUD APIs for a typical contact book app
-Supported adding/editing/deleting contacts
-Search a contact by name/email address. Search supports pagination
+Developed CRUD APIs for a typical contact book app.
+Supported adding/editing/deleting contacts.
+Search a contact by name/email address. Search supports pagination.
 Implemented basic authentication for all the api's
 
 
@@ -187,12 +187,12 @@ Response:
 
 ---------
 
-
+Error Codes:
 
 HTTP Status 401 - Full authentication is required to access this resource
 
-601 - MobileNumber already exists
-602 - Given email is linked with another mobile
-603 - email already exists
-604 - something went wrong
+601 - MobileNumber already exists,
+602 - Given email is linked with another mobile,
+603 - email already exists,
+604 - something went wrong,
 605 - contact not found
